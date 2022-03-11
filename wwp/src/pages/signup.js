@@ -34,6 +34,9 @@ const SignUp = () => {
           case "auth/wrong-person":
             setPasswordError(err.message);
             break;  
+          case "auth/wrong-password":
+            setPasswordError(err.message);
+            break;
         }
       });
    };

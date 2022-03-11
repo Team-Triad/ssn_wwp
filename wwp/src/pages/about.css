@@ -1,0 +1,14 @@
+.image{
+        border-radius: 50%;
+        background-color: black;
+        padding: 1%;
+        display: flex;
+        margin: auto;
+        margin-top: 5%;
+
+}
+.about{
+    margin: auto;
+    width: 100%;
+}
+

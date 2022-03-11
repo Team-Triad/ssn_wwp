@@ -1,16 +1,12 @@
 import React from 'react';
+import pic from '../images/about_us.webp';
+import './about.css'
 
 const About = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: '90vh'
-      }}
-    >
-      <h1>About</h1>
+    <div className='about'>
+      <img alt='Team-Triad' className='image' src={pic} width="350px" height="300px"/>
+      
     </div>
   );
 };
