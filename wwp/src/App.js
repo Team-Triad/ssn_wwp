@@ -19,7 +19,7 @@ const App= () => {
      <Navbar />
      <main>
        <Routes>
-         <Route path='/wwp/' exact element={<Home/>} />
+         <Route path='/ssn_wwp/' exact element={<Home/>} />
          <Route path='/' exact element={<Home/>} />
          <Route path='/about' element={<About/>} />
          <Route path='/services' element={<Services/>} />

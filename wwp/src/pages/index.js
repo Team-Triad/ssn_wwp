@@ -47,7 +47,7 @@ const Frame=({name,amount,district,members,contact,addi})=>{
           <p className='card-text'>District:{district}</p>
           <p className='card-text'>MembersNeeded:{members}</p>
           <p className='card-text'>ExtraInfo:{addi}</p>
-          <button type="button" className="btn btn-primary">Button</button>
+          <button type="button" className="btn btn-primary">Report</button>
         </div>
         <div className="card-footer">Contact no:{contact}</div>
       </div>
